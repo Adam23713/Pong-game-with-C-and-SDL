@@ -20,7 +20,7 @@ g++ game.cpp game_menu.cpp menu.cpp pong.cpp settings.cpp -o pong -lSDL -lSDL_im
  
  # Authors
  Kertész Ádám
- Project Webpage: https://callprog.hu/contents/github/pong-project/pong
+ <br>Project Webpage: https://callprog.hu/contents/github/pong-project/pong
  
  # License
  This project is licensed under the GNU General Public v3.0 License - see the LICENSE.md file for details
