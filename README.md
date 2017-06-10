@@ -19,7 +19,7 @@ g++ game.cpp game_menu.cpp menu.cpp pong.cpp settings.cpp -o pong -lSDL -lSDL_im
  </ul>
  
 # Pictures
-![alt text](https://raw.githubusercontent.com/12465316/27001325-d7b7afea-4dc7-11e7-8ef1-af66cf350b41.png)
+![alt text](https://user-images.githubusercontent.com/12465316/27001325-d7b7afea-4dc7-11e7-8ef1-af66cf350b41.png)
 
 
 # Authors
