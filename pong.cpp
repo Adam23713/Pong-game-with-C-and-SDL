@@ -1,5 +1,6 @@
 #include "functions.h"
 
+const int FRAMES_PER_SECOND = 30;
 extern SDL_Event event;
 int player_mode;
 bool game_countinue=false;
@@ -12,11 +13,14 @@ int default_ball_R=1;
 int main(int argc, char* argv[])
 {
 	bool quit;
+	int startTicks;
+	int frame = 0;
 	
 	init();
 	quit = menu();
 	if(quit==false)
 	{
+		startTicks = SDL_GetTicks();
 		ResetBall();
 		while(quit==false)
 		{
@@ -32,6 +36,9 @@ int main(int argc, char* argv[])
 				Ai_Logic(speed);
 			DrawnScreen();
 		}
+		frame++;
+		if( (SDL_GetTicks() - startTicks) < (1000 / FRAMES_PER_SECOND) )
+            SDL_Delay( ( 1000 / FRAMES_PER_SECOND ) - (SDL_GetTicks() - startTicks) );
 	}
 	clean();
 	return EXIT_SUCCESS;
