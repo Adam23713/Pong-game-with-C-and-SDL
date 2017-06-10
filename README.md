@@ -18,9 +18,12 @@ g++ game.cpp game_menu.cpp menu.cpp pong.cpp settings.cpp -o pong -lSDL -lSDL_im
  <li>SDL 1.2</li>
  </ul>
  
- # Authors
- Kertész Ádám
- <br>Project Webpage: https://callprog.hu/contents/github/pong-project/pong
+# Pictures
+
+# Authors
+Kertész Ádám
+<br>My webpage: https://callprog.hu
+<br>Project Webpage: https://callprog.hu/contents/github/pong-project/pong
  
- # License
- This project is licensed under the GNU General Public v3.0 License - see the LICENSE.md file for details
+# License
+This project is licensed under the GNU General Public v3.0 License - see the LICENSE.md file for details
